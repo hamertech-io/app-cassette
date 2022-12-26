@@ -1,0 +1,24 @@
+{
+  "cli": {
+    "version": ">= 3.1.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "hamertech@yahoo.com",
+        "ascAppId": "1660891930",
+        "appleTeamId": "24737A77MA"
+      }
+    }
+  }
+}
