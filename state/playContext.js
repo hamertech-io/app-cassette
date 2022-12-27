@@ -157,7 +157,7 @@ export const PlayContextProvider = ({ children }) => {
             allowsRecordingIOS: false,
             staysActiveInBackground: true,
             interruptionModeIOS: InterruptionModeIOS.DoNotMix,
-            playThroughEarpieceAndroid: true,
+            playThroughEarpieceAndroid: false,
             playsInSilentModeIOS: true,
             shouldDuckAndroid: true,
             interruptionModeAndroid: InterruptionModeAndroid.DoNotMix,
